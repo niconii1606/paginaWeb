@@ -10,8 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="main/owl.carousel.min.css">
-  <link rel="stylesheet" href="main/owl.theme.default.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
   <meta name="viewport" content="width-device-width,
   user-scalable=no">
@@ -26,10 +26,12 @@
       <img class="menu-icon" src="menu.png">
       <nav>
         <ul class="lista">
-          <li>Opciones de rutas viajeras</li>
-          <li>Mejores Aplicaciones de Vuelos Económicos</li>
-          <li>Mejores Opciones de Hospedajes</li>
-          <li>Tips Viajeros</li>
+          <li>Sobre mi</li>
+          <li>Servicios</li>
+          <li>Mis Trabajos</li>
+          <li>Por que trabajar
+          conmigo?</li>
+          <li>Blog</li>
           <li class="ultimo">Contacto</li>
         </ul>
       </nav>
@@ -45,11 +47,28 @@
   </header>
 
   <section>
-    <h3>Opciones de rutas viajeras</h3>
+    <h3>Sobre mi</h3>
     <div class="contenedor-sobremi">
-      <img class="imagen-sobremi" src="fondo.jpg" alt="Nicolas Montejo" title="Nicolas Montejo">
+      <img class="imagen-sobremi" src="yo.jpg" alt="Nicolas Montejo" title="Nicolas Montejo">
       <div class="contenedor-parrafo-y-boton">
-        <p>Productos</p>
+        <p>Mi nombre es Nicolas
+          Montejo y soy Desarrollador.
+          Tengo la experiencia en
+          desarrollo de sitios web para
+          pequeñas y medianas empresas.</p>
+          <p> Me aseguro de utilizar siempre
+            las ultimas tecnologias de
+            desarrollo web: HTMLS, CSS3, JQuery.
+            Si necesitas una pagina web moderna,
+            funcional que se adapte a todos los
+            diferentes tipos de pantalla, te
+            aseguro de que llegaste al lugar ideal.</p>
+
+            <p class="parrafo-final">Puedes ponerte
+              en contacto conmigo a través de Facebook,
+              LinkedIn o completando el formulario de
+              contacto que se encuentra al final de mi
+              sitio web. </p>
               <a>VER MIS TRABAJOS</a>
             </div>
           </div>
@@ -227,12 +246,11 @@
                       <img src="whatsapp.png" alt="">
                     </a>
                   </section>
-    
 
-                    <script src="main/jquery.min.js"></script>
-                    <script src="main/owl.carousel.min.js"></script>
+                    <script src="owlcarousel/jquery.min.js"></script>
+                    <script src="owlcarousel/owl.carousel.min.js"></script>
                     <script>
-                                        $('.owl-carousel').main({
+                    $('.owl-carousel').owlCarousel({
                       loop:true,
                       margin:10,
                       nav:true,
